@@ -7,7 +7,10 @@ body{
     display:flex;
    justify-content:space-between;
 text-align: center;
-   margin:2%%;
+margin-top:2rem;
+margin-left:15%;
+margin-right:15%
+
 }
 .header-logo{
 /* margin:12px; */
@@ -21,4 +24,6 @@ text-align: center;
 
 .nav-right-links a{
     margin-right:2rem;
+    text-decoration: none;
 }
+
