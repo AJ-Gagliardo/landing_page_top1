@@ -92,3 +92,53 @@ text-align:center;
     flex:1;
     padding:1rem;
 }
+
+.testimonial{
+    background-color:#e5e7eb;
+    padding:2rem;
+}
+
+.testimonial-quote{
+    font-size:36px;
+    margin-left:15%;
+margin-right:15%;
+}
+
+.testimony-author{
+    font-size:36px;
+    font-weight:600;
+    text-align:right
+}
+
+.call-to-action{
+
+}
+.action-time{
+    display:flex;
+    background-color:#3882f6;
+    margin-left:15%;
+margin-right:15%;
+margin-top:4rem;    
+color:white;
+justify-content: space-around;
+text-align:center;
+align-items: center;
+}
+
+.left-action{
+    /* flex:1; */
+}
+
+.right-action{
+    /* flex:1; */
+    /* text-align:center; */
+
+}
+
+
+.signup-btn{
+    /* text-align:center; */
+    padding:6px 12px 6px 12px;
+    border-style:solid;
+    border-radius:6px;
+}
