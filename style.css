@@ -1,25 +1,34 @@
 body{
-
+margin:0px;
 }
 
-
+.hero-section{
+    background-color:#1f2937;
+    padding:4rem;
+}
 .header-nav{
     display:flex;
    justify-content:space-between;
 text-align: center;
-margin-top:2rem;
+margin-top:1rem;
 margin-left:15%;
 margin-right:15%
 
 }
 .header-logo{
 /* margin:12px; */
-    font-size:18px;
+    font-size:24px;
+    color:#f9faf8;
 }
 .nav-right-links{
     display:flex;
     justify-content: space-between;
+   
     
+}
+
+a{
+    color:#f9faf8;
 }
 
 .nav-right-links a{
@@ -27,3 +36,40 @@ margin-right:15%
     text-decoration: none;
 }
 
+
+/* ### Hero Section ### */
+
+.hero-title{
+font-size:48px;
+font-weight:700;
+color:#f9faf8;
+}
+.hero-txt{
+font-size:18px;
+color:#e5e7eb;
+}
+
+.hero-content{
+    display:flex;
+    margin-top:6rem;
+    justify-content:space-between;
+}
+
+.hero-left-side{
+    margin-left:15%;
+    flex:1;
+    /* max-width:40%; */
+}
+
+.hero-right-side{
+    margin-right:15%;
+    flex:1.5;
+    margin-left:10%;
+}
+
+.hero-btn{
+    background-color:#0077b6;
+    color:white;
+    padding:1rem;
+    border-radius:8px;
+}
