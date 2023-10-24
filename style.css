@@ -73,3 +73,22 @@ color:#e5e7eb;
     padding:1rem;
     border-radius:8px;
 }
+
+/* ### INFO SECTION ### */
+
+.info-section{
+    margin-top:1rem;
+margin-left:15%;
+margin-right:15%;
+margin-top:4rem;
+text-align:center;
+}
+.info-sec{
+    display:flex;
+    text-align:center;
+}
+
+.info-subsec{
+    flex:1;
+    padding:1rem;
+}
